@@ -28,6 +28,7 @@ const fp = flatpickr(myInput, options);
 btnStart.addEventListener('click', onClick);
 function onClick() {
   countTime = setInterval(setTime, 1000);
+  btnStart.disabled = true;
 }
 
 function setTime() {
