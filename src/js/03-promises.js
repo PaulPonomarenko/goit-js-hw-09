@@ -1,13 +1,5 @@
 const form = document.querySelector('.form');
 
-// Функція відправки рмфои
-// Достаємо значення інпутів і приводимо до числа// Робимо перевірку на пусті інпути - це додатково
-// Відключаємо кнопку і інпути
-// Робимо перебор з amount
-// Очищаємо форму
-//Відображуємо кнопку і інпути після заверщення - використовуємо “setInterval”
-// Вішаємо слухача події
-
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
     const shouldResolve = Math.random() > 0.3;
